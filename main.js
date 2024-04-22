@@ -158,5 +158,9 @@ const idInvalidCardCompanies = invalidNumb => {
   });
   return companyName;
 }
+//check if the card is valid or invalid:
+//console.log(validateCred(enter the array name here from the card numbers at the top of the page), for example:
+console.log(validateCred(mystery1));
 
-console.log(idInvalidCardCompanies(invalidCard[]))
+//check name of company
+console.log(idInvalidCardCompanies(invalidCard))
